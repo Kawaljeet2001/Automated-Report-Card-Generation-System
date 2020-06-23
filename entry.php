@@ -6,7 +6,7 @@
     <title>Marks-Entry</title>
 </head>
 <body>
-    <form action="" method = "POST">
+    <form action="includes/startentry.inc.php" method = "POST">
         <label for="">Class</label>
         <select name="class" id="">
             <option value="9">9</option>
@@ -21,7 +21,7 @@
             <option value="E">E</option>
         </select>
         <label for="">Subject</label>
-        <select name="Subject" id="">
+        <select name="subject" id="">
             <option value="English">English</option>
             <option value="Hindi">Hindi</option>
             <option value="Maths">Maths</option>
@@ -29,7 +29,7 @@
             <option value="SST">SST</option>
         </select>
         <label for="">Exam</label>
-        <select name="Exam" id="">
+        <select name="exam" id="">
             <option value="FA1">FA1</option>
             <option value="OD1">OD1</option>
             <option value="OA">Online Assessment</option>
